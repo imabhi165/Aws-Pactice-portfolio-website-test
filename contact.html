@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Abhishek Kumar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <h2 class="nav-logo">Abhishek</h2>
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-hero contact-hero">
+      <div class="hero-content">
+        <h1>Get In Touch</h1>
+        <p class="hero-subtitle">
+          Let's discuss your next project or collaboration opportunity
+        </p>
+      </div>
+      <div class="hero-decoration">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="contact-icon">📧</div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-header">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in new opportunities and collaborations.
+              Feel free to reach out!
+            </p>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>imabhi165@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Your City, Country</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div class="contact-text">
+                <h4>LinkedIn</h4>
+                <p>
+                  <a href="https://linkedin.com/in/imabhi165" target="_blank"
+                    >linkedin.com/in/abhishek-kumar</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🐙</div>
+              <div class="contact-text">
+                <h4>GitHub</h4>
+                <p>
+                  <a href="https://github.com/imabhi165" target="_blank"
+                    >github.com/abhishek-kumar</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <div class="form-header">
+            <h3>Send a Message</h3>
+            <p>Fill out the form below and I'll get back to you soon.</p>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+
+          <div id="msg" class="success-message" style="display: none">
+            Thank you! Your message has been received.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Abhishek Kumar</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
